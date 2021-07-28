@@ -5,7 +5,7 @@ cask "crushftp" do
   url "https://www.crushftp.com/early#{version}/CrushFTP#{version}.zip"
   name "CrushFTP"
   desc "File transfer server"
-  homepage "https://www.crushftp.com/"
+  homepage "https://www.crushftp.com/index.html"
 
   livecheck do
     url "https://www.crushftp.com/download.html"
