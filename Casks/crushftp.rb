@@ -3,7 +3,7 @@ cask "crushftp" do
   sha256 :no_check # required as upstream package is updated in-place
 
   url "https://www.crushftp.com/early#{version}/CrushFTP#{version}.zip",
-      cookies: { "CrushAuth" => "1234567890123_1234567890ABCDEFGHIJKLMNOPQRST" }
+      cookies: { "CrushAuth" => "1234567890123_1234567890ABCDEFGHIJKLMNOPQRST", "currentAuth" => "ABCD" }
   name "CrushFTP"
   desc "File transfer server"
   homepage "https://www.crushftp.com/index.html"
